@@ -12,9 +12,10 @@ input{
     border-right: none;
     border-bottom: white solid 2px;
     color: white;
-  
-    
+    padding-right: 20rem;
+    width: 5rem;
 }
+
 
  h1{
         font-size: 0.6rem;
@@ -74,7 +75,7 @@ input{
   .submission-form{
       max-width: 500px;
       margin: 2rem auto;
-      border: 2px solid yellow;
+
       border-radius: 5%;
       padding: 2rem;
   }
@@ -94,11 +95,14 @@ text-align: center;
       color: white;
       text-align: left;
      display: block;
-     font-family: 'Comfortaa', cursive;
+     font-family: 'Comfortaa';
+     padding-right: 5rem;
+     padding-top: 1rem;
   }
 .input{
     border: none;
     background-color: black;
+  
 }
   .label-input {
       padding-top:0.5rem ;
@@ -162,7 +166,7 @@ text-align: center;
     
     
     .btn a{
-        color: white;
+        color:yellow;
         text-decoration:none;
     }
     
@@ -248,6 +252,8 @@ background-color:black;
 position: fixed;
 bottom: 0;
 padding-top: 2rem;
+font-family: 'Montserrat';
+padding-bottom: 2rem;
     
 }
 .footer{
@@ -257,12 +263,18 @@ padding-top: 2rem;
     height: 100px;
     background: black;
     width: 100%;
+    font-family: 'Montserrat';
+    
+
 }
 .footer-link{
     padding-top: 2rem;
     color:white;
     padding-right: 1rem;
     padding-left:1rem ;
+    font-family: 'Montserrat';
+    
+    
   
 } 
 .footer-about{
@@ -272,6 +284,7 @@ padding-top: 2rem;
     height: 60px;
     background:black;
     width: 100%;
+    font-family: 'Montserrat';
 }
 .footer-link-a{
     padding-top: 2rem;
@@ -285,6 +298,14 @@ padding-top: 2rem;
     .footer,.footer-about{ position: fixed; 
             bottom: 0;
     
+    }
+    
+}
+
+
+@media (min-width:421px){
+    .slider-section{
+        padding-top:8rem;
     }
     
 }
